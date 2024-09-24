@@ -15,4 +15,4 @@
 ## Problemer med øvelser:
 
 7. Hvis det member, der vises, er DIG, skal du også kunne se de private repositories: 
-Det er ikke muligt at se dine egne private repositories med `https://api.github.com/users/{github_username}/repos`. Hvis jeg derimod bruger `https://api.github.com/repos/Fred062f/{repository}`, hvor jeg specifikt vælger et repository, som jeg ved er privat, og bruger det samme authentication token i begge API-kald, kan du jeg se det private repository.
+Det er ikke muligt at se mine egne private repositories med `https://api.github.com/users/{github_username}/repos`. Hvis jeg derimod bruger `https://api.github.com/repos/Fred062f/{repository}`, hvor jeg specifikt vælger et repository, som jeg ved er privat, og bruger det samme authentication token i begge API-kald, kan du jeg se det private repository.
